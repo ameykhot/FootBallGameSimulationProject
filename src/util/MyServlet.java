@@ -16,7 +16,7 @@ public class MyServlet extends HttpServlet {
             if (request.getParameter("button1") != null) {
                 sim.startGame();
                 System.out.println("Group Stage finished");
-                response.sendRedirect("/Footsal_war_exploded/loadTable.jsp");
+                response.sendRedirect("/FootballGameSimulation_war_exploded//loadTable.jsp");
             }
         } catch (Exception e) {
             System.out.println(e);
